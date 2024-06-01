@@ -32,8 +32,8 @@ export async function connect(roomName: string, options: any = {}) {
     const address = options.userData.userId
     options.address = address
 
-    const ENDPOINT = "ws://127.0.0.1:2567";
-    //const ENDPOINT = "wss://fairgroundserver.onrender.com"
+    //const ENDPOINT = "ws://127.0.0.1:2567";
+    const ENDPOINT = "wss://fairgroundserver.onrender.com"
 
     const client = new Client(ENDPOINT);
     let room
