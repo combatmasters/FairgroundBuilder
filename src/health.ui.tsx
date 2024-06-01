@@ -340,7 +340,7 @@ const uiComponent2 = () => (
         flexWrap:'wrap',
         alignSelf:'center'
       }}
-      uiBackground={{texture: {src: "images/marketbg.png"}, textureMode: 'stretch' }}
+      uiBackground={{texture: {src: "images/infobg.png"}, textureMode: 'stretch' }}
     >
         <UiEntity
           uiTransform={{
